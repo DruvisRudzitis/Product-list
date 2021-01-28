@@ -1,8 +1,10 @@
+# To set project up:
+
 - git clone https://github.com/DruvisRudzitis/Product-list.git
 - composer install
 - copy .env.example to .env
 - fill in .env with your configuration values
-- create table products:
+- create table 'products':
 ```
     id          int auto_increment              primary key,
     sku         varchar(255)                       not null,
